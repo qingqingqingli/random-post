@@ -1,0 +1,14 @@
+com/randompost/BuildConfig.java
+ com.randompost.BuildConfig
+com/randompost/MainActivity.java
+ com.randompost.MainActivity
+com/randompost/MainApplication.java
+ com.randompost.MainApplication
+ com.randompost.MainApplication$1
+com/randompost/ReactNativeFlipper.java
+ com.randompost.ReactNativeFlipper
+ com.randompost.ReactNativeFlipper$1
+ com.randompost.ReactNativeFlipper$2
+ com.randompost.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

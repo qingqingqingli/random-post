@@ -9,7 +9,7 @@ import {
 import styles from "../styles";
 import PostItem from "./PostItem";
 
-const postURL = "http://jsonplaceholder.typicode.om/posts";
+const postURL = "http://jsonplaceholder.typicode.com/posts";
 const ItemSeparator = () => <View style={styles.separator} />;
 
 const PostScreen = ({ navigation }) => {

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { View, Button, ActivityIndicator, FlatList, Text } from "react-native";
 import styles from "../styles";
 import AuthorItem from "./AuthorItem";
-import PostItem from "../PostScreen/PostItem";
 
 const authorURL = "http://jsonplaceholder.typicode.com/users";
 const ItemSeparator = () => <View style={styles.separator} />;

@@ -1,4 +1,4 @@
-import React, {PureComponent} from "react";
+import React, { PureComponent } from "react";
 import { Text, TouchableOpacity } from "react-native";
 import styles from "../styles";
 

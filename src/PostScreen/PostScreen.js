@@ -1,38 +1,25 @@
-import React from 'react';
-import {
-  View,
-  Button,
-  SafeAreaView,
-  ActivityIndicator,
-  FlatList,
-} from 'react-native';
-import {useEffect, useState} from 'react';
-import styles from '../styles';
-import PostItem from './RenderPost';
+import React, { useEffect, useState } from "react";
+import { View, SafeAreaView, ActivityIndicator, FlatList } from "react-native";
+import styles from "../styles";
+import PostItem from "./PostItem";
 
-const postURL = 'http://jsonplaceholder.typicode.com/posts';
+const postURL = "http://jsonplaceholder.typicode.com/posts";
 const ItemSeparator = () => <View style={styles.separator} />;
 
-const PostScreen = ({navigation}) => {
+const PostScreen = ({ navigation }) => {
   const [isLoading, setLoading] = useState(true);
   const [data, setData] = useState([]);
 
   useEffect(() => {
     fetch(postURL)
-      .then(response => response.json())
-      .then(json => setData(json))
-      .catch(error => alert(error))
+      .then((response) => response.json())
+      .then((json) => setData(json))
+      .catch((error) => alert(error))
       .finally(() => setLoading(false));
   });
 
-  // add if error
-
   return (
     <SafeAreaView style={styles.container}>
-      <Button
-        title="Go to detail screen"
-        onPress={() => navigation.navigate('Detail Screen', {id: 6})}
-      />
       {isLoading ? (
         <View style={styles.loader}>
           <ActivityIndicator size="large" color="#0c9" />
@@ -40,12 +27,14 @@ const PostScreen = ({navigation}) => {
       ) : (
         <FlatList
           data={data}
-          keyExtractor={item => item.id}
+          keyExtractor={(item) => item.id}
           ItemSeparatorComponent={ItemSeparator}
-          renderItem={({item}) => (
+          renderItem={({ item }) => (
             <PostItem
               item={item}
-              onPress={() => navigation.navigate('Detail Screen', {item: item})}
+              onPress={() =>
+                navigation.navigate("Detail Screen", { item: item })
+              }
             />
           )}
         />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1616933905181" clover="3.2.0">
-  <project timestamp="1616933905181" name="All files">
+<coverage generated="1616936982504" clover="3.2.0">
+  <project timestamp="1616936982505" name="All files">
     <metrics statements="40" coveredstatements="20" conditionals="4" coveredconditionals="2" methods="24" coveredmethods="6" elements="68" coveredelements="28" complexity="0" loc="40" ncloc="40" packages="4" files="6" classes="6"/>
     <package name="random-post">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -39,7 +39,7 @@
         <line num="39" count="0" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
       </file>
-      <file name="RenderAuthor.js" path="/home/qli/WebstormProjects/random-post/src/DetailScreen/RenderAuthor.js">
+      <file name="AuthorItem.js" path="/home/qli/WebstormProjects/random-post/src/DetailScreen/AuthorItem.js">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
@@ -66,7 +66,7 @@
         <line num="46" count="0" type="stmt"/>
         <line num="48" count="0" type="stmt"/>
       </file>
-      <file name="RenderPost.js" path="/home/qli/WebstormProjects/random-post/src/PostScreen/RenderPost.js">
+      <file name="PostItem.js" path="/home/qli/WebstormProjects/random-post/src/PostScreen/PostItem.js">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="0" type="stmt"/>

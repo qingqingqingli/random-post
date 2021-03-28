@@ -13,22 +13,25 @@
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/native": "^5.9.3",
     "@react-navigation/stack": "^5.14.3",
+    "jest-fetch-mock": "^3.0.3",
     "react": "17.0.1",
+    "react-dom": "^17.0.2",
     "react-native": "0.64.0",
-    "react-native-bootsplash": "^3.2.0",
-    "react-native-elements": "^3.3.2",
     "react-native-gesture-handler": "^1.10.3",
     "react-native-reanimated": "^2.0.1",
     "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^2.18.1",
     "react-redux": "^7.2.3",
     "redux": "^4.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
     "@babel/runtime": "^7.13.10",
     "@react-native-community/eslint-config": "^2.0.0",
-    "@types/jest": "^26.0.21",
+    "@testing-library/react": "^11.2.5",
     "babel-jest": "^26.6.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "eslint": "^7.22.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.65.2",
@@ -36,6 +39,13 @@
   },
   "jest": {
     "preset": "react-native",
-    "collectCoverage": true
+    "collectCoverage": true,
+    "automock": false,
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native-iphone-x-helper|@react-native|react-native|@react-navigation))"
+    ],
+    "setupFiles": [
+      "<rootDir>/jest/setup.js"
+    ]
   }
 }

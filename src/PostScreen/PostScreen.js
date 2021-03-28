@@ -1,22 +1,17 @@
-import * as React from 'react';
+import React from 'react';
 import {
   View,
-  Text,
   Button,
   SafeAreaView,
   ActivityIndicator,
   FlatList,
-  Pressable,
-  Alert,
-  ScrollView,
-  TouchableOpacity,
 } from 'react-native';
-import Styles from '../Styles';
 import {useEffect, useState} from 'react';
+import styles from '../styles';
 import PostItem from './RenderPost';
 
 const postURL = 'http://jsonplaceholder.typicode.com/posts';
-const ItemSeparator = () => <View style={Styles.separator} />;
+const ItemSeparator = () => <View style={styles.separator} />;
 
 const PostScreen = ({navigation}) => {
   const [isLoading, setLoading] = useState(true);
@@ -33,13 +28,13 @@ const PostScreen = ({navigation}) => {
   // add if error
 
   return (
-    <SafeAreaView style={Styles.container}>
+    <SafeAreaView style={styles.container}>
       <Button
         title="Go to detail screen"
         onPress={() => navigation.navigate('Detail Screen', {id: 6})}
       />
       {isLoading ? (
-        <View style={Styles.loader}>
+        <View style={styles.loader}>
           <ActivityIndicator size="large" color="#0c9" />
         </View>
       ) : (

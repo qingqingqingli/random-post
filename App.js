@@ -1,14 +1,4 @@
-import React, {useState, useEffect} from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-  SafeAreaView,
-  FlatList,
-  ActivityIndicator,
-  StatusBar,
-  Alert,
-} from 'react-native';
+import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import PostScreen from './src/PostScreen/PostScreen';

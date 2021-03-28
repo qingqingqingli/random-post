@@ -1,9 +1,9 @@
 import React from 'react';
-import {View, Text, ScrollView, Pressable, Alert} from 'react-native';
-import Styles from '../Styles';
+import {Text, ScrollView} from 'react-native';
+import styles from '../styles';
 
 const renderAuthorItem = ({item}) => (
-  <ScrollView style={Styles.item}>
+  <ScrollView style={styles.item}>
     <Text>Author ID: {item.id}</Text>
     <Text>Name: {item.name}</Text>
     <Text>Username: {item.username}</Text>

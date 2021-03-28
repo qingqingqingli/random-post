@@ -1,15 +1,12 @@
-import * as React from 'react';
+import React from 'react';
 import {
   Text,
-  ScrollView,
-  Alert,
-  TouchableOpacity,
-  Pressable,
+  TouchableOpacity
 } from 'react-native';
-import Styles from '../Styles';
+import styles from '../styles';
 
 const PostItem = ({item, onPress}) => (
-  <TouchableOpacity onPress={onPress} style={Styles.item}>
+  <TouchableOpacity onPress={onPress} style={styles.item}>
     <Text>Post ID: {item.id}</Text>
     <Text>Author ID: {item.userId}</Text>
     <Text>Title: {item.title}</Text>

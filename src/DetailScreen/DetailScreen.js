@@ -1,18 +1,16 @@
-import * as React from 'react';
+import React, {useEffect, useState} from 'react';
 import {
   View,
   Text,
   Button,
-  SafeAreaView,
   ActivityIndicator,
   FlatList,
 } from 'react-native';
-import Styles from '../Styles';
-import {useEffect, useState} from 'react';
+import styles from '../styles';
 import renderAuthorItem from './RenderAuthor';
 
 const authorURL = 'http://jsonplaceholder.typicode.com/users';
-const ItemSeparator = () => <View style={Styles.separator} />;
+const ItemSeparator = () => <View style={styles.separator} />;
 
 const DetailScreen = ({navigation, route}) => {
   const userID = route.params.item.userId;
@@ -28,12 +26,12 @@ const DetailScreen = ({navigation, route}) => {
   });
 
   return (
-    <View style={Styles.container}>
+    <View style={styles.container}>
       <Text>Detail Screen</Text>
       <Text>ID: {userID}</Text>
       <Button title="Back" onPress={() => navigation.goBack()} />
       {isLoading ? (
-        <View style={Styles.loader}>
+        <View style={styles.loader}>
           <ActivityIndicator size="large" color="#0c9" />
         </View>
       ) : (

@@ -1,28 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { View, Button, ActivityIndicator, FlatList, Text } from "react-native";
 import styles from "../styles";
 import AuthorItem from "./AuthorItem";
+import { extractApiData } from "../extractApiData";
 
 const authorURL = "http://jsonplaceholder.typicode.com/users";
 const ItemSeparator = () => <View style={styles.separator} />;
 
 const DetailScreen = ({ navigation, route }) => {
   const userID = route.params.item.userId;
-  const [isLoading, setLoading] = useState(false);
-  const [data, setData] = useState([]);
-  const [isError, setError] = useState(false);
-
-  useEffect(() => {
-    let mounted = true;
-    fetch(authorURL)
-      .then((response) => response.json())
-      .then((data) => (mounted ? setData(data) : null))
-      .catch((error) => (mounted ? setError(true) : null))
-      .finally(() => (mounted ? setLoading(false) : null));
-    return () => {
-      mounted = false;
-    };
-  }, []);
+  const { isLoading, data, isError } = extractApiData(authorURL);
 
   if (isError === false)
     return (

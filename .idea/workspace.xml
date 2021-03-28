@@ -2,18 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8393eb2c-8f3c-478d-a1c2-ba6a2b3289db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/extractApiData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DetailScreen/AuthorItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DetailScreen/AuthorItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DetailScreen/DetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DetailScreen/DetailScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostScreen/PostItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostScreen/PostItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PostScreen/PostScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostScreen/PostScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,7 +127,7 @@
       <workItem from="1616844117856" duration="2339000" />
       <workItem from="1616931319303" duration="4947000" />
       <workItem from="1616936973190" duration="2004000" />
-      <workItem from="1616939218596" duration="11581000" />
+      <workItem from="1616939218596" duration="13557000" />
     </task>
     <servers />
   </component>

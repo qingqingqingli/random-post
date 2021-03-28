@@ -8,26 +8,13 @@ import {
 } from "react-native";
 import styles from "../styles";
 import PostItem from "./PostItem";
+import { extractApiData } from "../extractApiData";
 
 const postURL = "http://jsonplaceholder.typicode.com/posts";
 const ItemSeparator = () => <View style={styles.separator} />;
 
 const PostScreen = ({ navigation }) => {
-  const [isLoading, setLoading] = useState(false);
-  const [data, setData] = useState([]);
-  const [isError, setError] = useState(false);
-
-  useEffect(() => {
-    let mounted = true;
-    fetch(postURL)
-      .then((response) => response.json())
-      .then((data) => (mounted ? setData(data) : null))
-      .catch((error) => (mounted ? setError(true) : null))
-      .finally(() => (mounted ? setLoading(false) : null));
-    return () => {
-      mounted = false;
-    };
-  }, []);
+  const { isLoading, data, isError } = extractApiData(postURL);
 
   if (isError === false)
     return (

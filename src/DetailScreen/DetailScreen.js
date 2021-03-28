@@ -12,12 +12,16 @@ const DetailScreen = ({ navigation, route }) => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
+    let mounted = true;
     fetch(authorURL)
       .then((response) => response.json())
-      .then((json) => setData(json))
+      .then((data) => (mounted ? setData(data) : null))
       .catch((error) => alert(error))
-      .finally(() => setLoading(false));
-  });
+      .finally(() => (mounted ? setLoading(false) : null));
+    return () => {
+      mounted = false;
+    };
+  }, []);
 
   return (
     <View style={styles.container}>

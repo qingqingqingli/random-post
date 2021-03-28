@@ -10,4 +10,5 @@ const AuthorItem = ({ item }) => (
     <Text>Email: {item.email}</Text>
   </ScrollView>
 );
+
 export default AuthorItem;

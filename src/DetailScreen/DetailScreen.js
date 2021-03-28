@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import {View, Button, ActivityIndicator, FlatList, Text} from "react-native";
+import { View, Button, ActivityIndicator, FlatList, Text } from "react-native";
 import styles from "../styles";
 import AuthorItem from "./AuthorItem";
+import PostItem from "../PostScreen/PostItem";
 
 const authorURL = "http://jsonplaceholder.typicode.com/users";
 const ItemSeparator = () => <View style={styles.separator} />;
@@ -15,10 +16,10 @@ const DetailScreen = ({ navigation, route }) => {
   useEffect(() => {
     let mounted = true;
     fetch(authorURL)
-        .then((response) => response.json())
-        .then((data) => (mounted ? setData(data) : null))
-        .catch((error) => (mounted ? setError(true) : null))
-        .finally(() => (mounted ? setLoading(false) : null));
+      .then((response) => response.json())
+      .then((data) => (mounted ? setData(data) : null))
+      .catch((error) => (mounted ? setError(true) : null))
+      .finally(() => (mounted ? setLoading(false) : null));
     return () => {
       mounted = false;
     };
@@ -36,7 +37,7 @@ const DetailScreen = ({ navigation, route }) => {
           <FlatList
             data={data.filter((x) => x.id === userID)}
             keyExtractor={(item) => item.id}
-            renderItem={AuthorItem}
+            renderItem={({ item }) => <AuthorItem item={item} />}
             ItemSeparatorComponent={ItemSeparator}
           />
         )}
@@ -44,9 +45,9 @@ const DetailScreen = ({ navigation, route }) => {
     );
   else if (isError || !data)
     return (
-        <View style={styles.item}>
-          <Text>Error occurred.</Text>
-        </View>
+      <View style={styles.item}>
+        <Text>Error occurred.</Text>
+      </View>
     );
 };
 

@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8393eb2c-8f3c-478d-a1c2-ba6a2b3289db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DetailScreen/AuthorItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DetailScreen/AuthorItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DetailScreen/DetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DetailScreen/DetailScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostScreen/PostScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostScreen/PostScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PostScreen/PostItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostScreen/PostItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +119,7 @@
       <workItem from="1616844117856" duration="2339000" />
       <workItem from="1616931319303" duration="4947000" />
       <workItem from="1616936973190" duration="2004000" />
-      <workItem from="1616939218596" duration="11207000" />
+      <workItem from="1616939218596" duration="11581000" />
     </task>
     <servers />
   </component>

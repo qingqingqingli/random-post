@@ -1,8 +1,8 @@
-import React from "react";
+import React, {PureComponent} from "react";
 import { Text, TouchableOpacity } from "react-native";
 import styles from "../styles";
 
-class PostItem extends React.PureComponent {
+class PostItem extends PureComponent {
   render() {
     const { item, onPress } = this.props;
     return (

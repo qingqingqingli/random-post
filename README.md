@@ -61,6 +61,8 @@ jest test
 ## Structure diagram
 
 - One main takeaway from the diagram below is all the component are interacting with `useState` hook. The dependencies can be simplified with the implementation with `React-Redux`. I run out of time to implement it. 
+  
+- Any suggestions on how to improve the structure is more than welcomed! :yellow_heart:
 
 [![project-structure](https://github.com/qingqingqingli/random-post/blob/master/images/project-structure.png)](https://github.com/qingqingqingli/random-post)
 

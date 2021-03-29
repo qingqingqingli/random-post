@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8393eb2c-8f3c-478d-a1c2-ba6a2b3289db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__tests__/PostScreen-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/PostScreen-test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/App.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/App.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/DetailScreen/AuthorItem.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/DetailScreen/AuthorItem.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/DetailScreen/DetailScreen.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/DetailScreen/DetailScreen.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/DetailScreen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/DetailScreen/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/PostScreen/PostItem.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/PostScreen/PostItem.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/PostScreen/PostScreen.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/PostScreen/PostScreen.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/PostScreen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/PostScreen/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/extractApiData.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/extractApiData.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/styles.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/styles.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest/setup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostScreen/PostScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostScreen/PostScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +180,7 @@
       <workItem from="1616936973190" duration="2004000" />
       <workItem from="1616939218596" duration="13557000" />
       <workItem from="1617009230167" duration="7175000" />
-      <workItem from="1617021322234" duration="10130000" />
+      <workItem from="1617021322234" duration="10445000" />
     </task>
     <servers />
   </component>

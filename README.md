@@ -18,8 +18,6 @@
 
 ## App demo
 
-> needs update
-
 [![random-post](https://github.com/qingqingqingli/random-post/blob/master/images/random-post.gif)](https://github.com/qingqingqingli/random-post)
 
 ## Installation
@@ -77,4 +75,6 @@ jest test
 | [**jest-fetch-mock**](https://github.com/jefflau/jest-fetch-mock#readme) | Allows you to easily mock your fetch calls and return the response you need to fake the HTTP requests | Mock fetch calls to test other components |
 | [**react-test-renderer**](https://reactjs.org/docs/test-renderer.html) | Provides a React renderer that can be used to render React components to pure JavaScript objects | Check content from returned component |
 
-## On my wishlist
+## My wishlist
+
+> If I had more than 24 hours a day :relaxed:

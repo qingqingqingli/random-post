@@ -25,6 +25,9 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#fff",
   },
+  bold: {
+    fontWeight: "bold"
+  }
 });
 
 export default styles;

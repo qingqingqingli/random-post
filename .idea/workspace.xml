@@ -2,14 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8393eb2c-8f3c-478d-a1c2-ba6a2b3289db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/extractApiData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@react-native-community/masked-view/android/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@react-native-community/masked-view/android/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memoize-one/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memoize-one/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memoize-one/dist/are-inputs-equal.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memoize-one/dist/memoize-one.cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memoize-one/dist/memoize-one.cjs.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memoize-one/dist/memoize-one.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memoize-one/dist/memoize-one.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memoize-one/dist/memoize-one.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memoize-one/dist/memoize-one.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memoize-one/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memoize-one/src/are-inputs-equal.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memoize-one/src/memoize-one.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memoize-one/src/memoize-one.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-gesture-handler/android/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-gesture-handler/android/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-safe-area-context/android/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-safe-area-context/android/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-native-screens/android/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react-native-screens/android/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/dist/index-dev.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/dist/index-dev.umd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/dist/index-prod.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/dist/index-prod.umd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/dist/index.cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/dist/index.cjs.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/dist/index.cjs.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/dist/index.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/dist/index.esm.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/dist/index.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/src/FixedSizeGrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/src/FixedSizeList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/src/VariableSizeGrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/src/VariableSizeList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/src/areEqual.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/src/createGridComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/src/createListComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/src/domHelpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/src/shallowDiffers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/src/shouldComponentUpdate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-window/src/timer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DetailScreen/AuthorItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DetailScreen/AuthorItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DetailScreen/DetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DetailScreen/DetailScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostScreen/PostScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostScreen/PostScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +180,7 @@
       <workItem from="1616931319303" duration="4947000" />
       <workItem from="1616936973190" duration="2004000" />
       <workItem from="1616939218596" duration="13557000" />
+      <workItem from="1617009230167" duration="741000" />
     </task>
     <servers />
   </component>

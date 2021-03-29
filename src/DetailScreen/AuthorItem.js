@@ -7,10 +7,22 @@ class AuthorItem extends PureComponent {
     const { item } = this.props;
     return (
       <ScrollView style={styles.item}>
-        <Text>Author ID: {item.id}</Text>
-        <Text>Name: {item.name}</Text>
-        <Text>Username: {item.username}</Text>
-        <Text>Email: {item.email}</Text>
+        <Text>
+          <Text style={styles.bold}>Author ID: </Text>
+          {item.id}
+        </Text>
+        <Text>
+          <Text style={styles.bold}>Name: </Text>
+          {item.name}
+        </Text>
+        <Text>
+          <Text style={styles.bold}>Username: </Text>
+          {item.username}
+        </Text>
+        <Text>
+          <Text style={styles.bold}>Email: </Text>
+          {item.email}
+        </Text>
       </ScrollView>
     );
   }

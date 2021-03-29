@@ -7,10 +7,22 @@ class PostItem extends PureComponent {
     const { item, onPress } = this.props;
     return (
       <TouchableOpacity onPress={onPress} style={styles.item}>
-        <Text>Post ID: {item.id}</Text>
-        <Text>Author ID: {item.userId}</Text>
-        <Text>Title: {item.title}</Text>
-        <Text>Body: {item.body}</Text>
+        <Text>
+          <Text style={styles.bold}>Post ID: </Text>
+          {item.id}
+        </Text>
+        <Text>
+          <Text style={styles.bold}>Author ID: </Text>
+          {item.userId}
+        </Text>
+        <Text>
+          <Text style={styles.bold}>Title: </Text>
+          {item.title}
+        </Text>
+        <Text>
+          <Text style={styles.bold}>Body: </Text>
+          {item.body}
+        </Text>
       </TouchableOpacity>
     );
   }

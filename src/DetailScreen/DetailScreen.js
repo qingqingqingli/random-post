@@ -5,7 +5,6 @@ import AuthorItem from "./AuthorItem";
 import { extractApiData } from "../extractApiData";
 
 const authorURL = "http://jsonplaceholder.typicode.com/users";
-const ItemSeparator = () => <View style={styles.separator} />;
 
 const DetailScreen = ({ navigation, route }) => {
   const userID = route.params.item.userId;
@@ -24,7 +23,6 @@ const DetailScreen = ({ navigation, route }) => {
             data={data.filter((x) => x.id === userID)}
             keyExtractor={(item) => item.id}
             renderItem={({ item }) => <AuthorItem item={item} />}
-            ItemSeparatorComponent={ItemSeparator}
           />
         )}
       </View>

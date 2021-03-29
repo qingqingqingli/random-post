@@ -42,7 +42,7 @@ yarn install
 # step 1: start Metro in one terminal
 yarn start
 
-# step 2: start the application
+# step 2: start the application in another terminal
 react-native run-android
 ```
 If everything is set up correctly, you should see the app running in your Android emulator shortly. If you can't get it to work, see the [Troubleshooting](https://reactnative.dev/docs/next/troubleshooting#content) page.

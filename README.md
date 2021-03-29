@@ -6,8 +6,8 @@
 
 | Requirement | Description | Result |
 | ------------| ----------- | ------ | 
-| Language | React-Native | Implemented |
-| Framework | React-Redux | Not implemented (run out of time) |
+| Language | React-Native | Implemented :sun_with_face: |
+| Framework | React-Redux | Not implemented (run out of time) :neutral_face: |
 | Initial screen | Contains a list of posts from [PostAPI](http://jsonplaceholder.typicode.com/posts) | Implemented |
 | Detail screen | Show details for post author from [UserAPI](http://jsonplaceholder.typicode.com/users) | Implemented |
 | Develop tests | Testing the application | Implemented (Only two tests)|

@@ -18,5 +18,5 @@
 
 ## App demo
 
-[![random-post](https://github.com/qingqingqingli/random-post/images/random-post.gif)](https://github.com/qingqingqingli/random-post)
+[![random-post](https://github.com/qingqingqingli/random-post/blob/master/images/random-post.gif)](https://github.com/qingqingqingli/random-post)
 

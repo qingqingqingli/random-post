@@ -6,15 +6,15 @@
 
 | Requirement | Description | Result |
 | ------------| ----------- | ------ | 
-| Language | React-Native | Implemented :sun_with_face: |
-| Framework | React-Redux | Not implemented (run out of time) :neutral_face: |
-| Initial screen | Contains a list of posts from [PostAPI](http://jsonplaceholder.typicode.com/posts) | Implemented |
-| Detail screen | Show details for post author from [UserAPI](http://jsonplaceholder.typicode.com/users) | Implemented |
-| Develop tests | Testing the application | Implemented (Only two tests)|
-| Build process | Code to compile, run and produce output | Implemented |
-| 3rd party libraries | Be able to justify the reason | Explained below |
-| Coding style | Be consistent with the code | Implemented (with [Prettier](https://www.npmjs.com/package/prettier)) |
-| Data persistence (Optional) | Be able to support offline mode | Not implemented |
+| Language | React-Native | :rainbow: Implemented |
+| Framework | React-Redux | :sweat_drops: Not implemented (run out of time) :neutral_face: |
+| Initial screen | Contains a list of posts from [PostAPI](http://jsonplaceholder.typicode.com/posts) | :rainbow: Implemented |
+| Detail screen | Show details for post author from [UserAPI](http://jsonplaceholder.typicode.com/users) | :rainbow: Implemented |
+| Develop tests | Testing the application | :sweat_drops: Implemented (Only two tests)|
+| Build process | Code to compile, run and produce output | :rainbow: Implemented |
+| 3rd party libraries | Be able to justify the reason | :rainbow: Explained below |
+| Coding style | Be consistent with the code | :rainbow: Implemented (with [Prettier](https://www.npmjs.com/package/prettier)) |
+| Data persistence (Optional) | Be able to support offline mode | :sweat_drops: Not implemented |
 
 ## App demo
 

@@ -54,7 +54,7 @@ If everything is set up correctly, you should see the app running in your Androi
 jest test
 ```
 
-- **Caveat**: Only two tests are included at the moment. Check my wiki for reflections.
+- **Caveat**: Only two tests have been developed.
   
 [![jest-test](https://github.com/qingqingqingli/random-post/blob/master/images/jest-test.png)](https://github.com/qingqingqingli/random-post)
 

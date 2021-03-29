@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">68.42% </span>
+                <span class="strong">66.67% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>13/19</span>
+                <span class='fraction'>8/12</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">62.5% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>3/6</span>
+                <span class='fraction'>5/8</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">45.45% </span>
+                <span class="strong">20% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>5/11</span>
+                <span class='fraction'>1/5</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">76.47% </span>
+                <span class="strong">72.73% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>13/17</span>
+                <span class='fraction'>8/11</span>
             </div>
         
             
@@ -106,29 +106,27 @@
 <a name='L47'></a><a href='#L47'>47</a>
 <a name='L48'></a><a href='#L48'>48</a>
 <a name='L49'></a><a href='#L49'>49</a>
-<a name='L50'></a><a href='#L50'>50</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -148,6 +146,12 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -156,51 +160,53 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { useEffect, useState } from "react";
-import { View, SafeAreaView, ActivityIndicator, FlatList } from "react-native";
+import {
+  Text,
+  View,
+  SafeAreaView,
+  ActivityIndicator,
+  FlatList,
+} from "react-native";
 import styles from "../styles";
 import PostItem from "./PostItem";
+import { extractApiData } from "../extractApiData";
 &nbsp;
 const postURL = "http://jsonplaceholder.typicode.com/posts";
 const ItemSeparator = <span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >&lt;View style={styles.separator} /&gt;;</span>
 &nbsp;
 const PostScreen = ({ navigation }) =&gt; {
+  const { isLoading, data, isError } = extractApiData(postURL);
 &nbsp;
-  const [isLoading, setLoading] = useState(true);
-  const [data, setData] = useState([]);
-&nbsp;
-  useEffect(() =&gt; {
-    let mounted = true;
-    fetch(postURL)
-      .then((response) =&gt; (response.json()))
-      .then(<span class="fstat-no" title="function not covered" >(d</span>ata) =&gt; (<span class="cstat-no" title="statement not covered" >mounted ? setData(data) : null)</span>)
-      .catch((error) =&gt; (alert(error)))
-      .finally(() =&gt; (mounted ? setLoading(false) : <span class="branch-1 cbranch-no" title="branch not covered" >null)</span>);
-    return <span class="fstat-no" title="function not covered" >()</span> =&gt; {<span class="cstat-no" title="statement not covered" >(mounted = false);}</span>
-  }, []);
-&nbsp;
-  return (
-    &lt;SafeAreaView style={styles.container}&gt;
-      {isLoading ? (
-        &lt;View style={styles.loader}&gt;
-          &lt;ActivityIndicator size="large" color="#0c9" /&gt;
-        &lt;/View&gt;
-      ) : (
-        &lt;FlatList
-          data={data}
-          keyExtractor={<span class="fstat-no" title="function not covered" >(i</span>tem) =&gt; <span class="cstat-no" title="statement not covered" >item.id}</span>
-          ItemSeparatorComponent={ItemSeparator}
-          renderItem={<span class="fstat-no" title="function not covered" >({</span> item }) =&gt; (
-<span class="cstat-no" title="statement not covered" >            &lt;PostItem</span>
-              item={item}
-              onPress={<span class="fstat-no" title="function not covered" >()</span> =&gt;
-<span class="cstat-no" title="statement not covered" >                navigation.navigate("Detail Screen", { item: item })</span>
-              }
-            /&gt;
-          )}
-        /&gt;
-      )}
-    &lt;/SafeAreaView&gt;
-  );
+  if (isError === false)
+    return (
+      &lt;SafeAreaView style={styles.container}&gt;
+        {isLoading ? (
+<span class="branch-0 cbranch-no" title="branch not covered" >          &lt;View style={styles.loader}&gt;</span>
+            &lt;ActivityIndicator size="large" color="#0c9" /&gt;
+          &lt;/View&gt;
+        ) : (
+          &lt;FlatList
+            data={data}
+            keyExtractor={<span class="fstat-no" title="function not covered" >(i</span>tem) =&gt; <span class="cstat-no" title="statement not covered" >item.id}</span>
+            ItemSeparatorComponent={ItemSeparator}
+            renderItem={<span class="fstat-no" title="function not covered" >({</span> item }) =&gt; (
+<span class="cstat-no" title="statement not covered" >              &lt;PostItem</span>
+                item={item}
+                onPress={<span class="fstat-no" title="function not covered" >()</span> =&gt;
+<span class="cstat-no" title="statement not covered" >                  navigation.navigate("Detail Screen", { item: item })</span>
+                }
+              /&gt;
+            )}
+          /&gt;
+        )}
+      &lt;/SafeAreaView&gt;
+    );
+  else <span class="missing-if-branch" title="else path not taken" >E</span>if (isError || <span class="branch-1 cbranch-no" title="branch not covered" >!data)</span>
+    return (
+      &lt;View style={styles.item}&gt;
+        &lt;Text&gt;Error occurred.&lt;/Text&gt;
+      &lt;/View&gt;
+    );
 };
 &nbsp;
 export default PostScreen;
@@ -211,7 +217,7 @@ export default PostScreen;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Sun Mar 28 2021 19:37:21 GMT+0200 (Central European Summer Time)
+                at Mon Mar 29 2021 15:35:51 GMT+0200 (Central European Summer Time)
             </div>
         </div>
         <script src="../../../prettify.js"></script>

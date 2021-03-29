@@ -79,7 +79,7 @@ jest test
 
 ## My wishlist
 
-> If I had more than 24 hours a day :relaxed: These are learning areas left for the future.
+> These are learning areas left for the future. :relaxed:
 
 - [ ] Develop a less coupled structure
 - [ ] To implement React-Redux

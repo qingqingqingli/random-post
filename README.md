@@ -8,8 +8,8 @@
 | ------------| ----------- | ------ | 
 | Language | React-Native | Implemented |
 | Framework | React-Redux | Not implemented (run out of time) |
-| Initial screen | Contains a list of posts | Implemented |
-| Detail screen | Show details for post author | Implemented |
+| Initial screen | Contains a list of posts from [PostAPI](http://jsonplaceholder.typicode.com/posts) | Implemented |
+| Detail screen | Show details for post author from [UserAPI](http://jsonplaceholder.typicode.com/users) | Implemented |
 | Develop tests | Testing the application | Implemented (Only two tests)|
 | Build process | Code to compile, run and produce output | Implemented |
 | 3rd party libraries | Be able to justify the reason | Explained below |
@@ -56,10 +56,20 @@ If everything is set up correctly, you should see the app running in your Androi
 jest test
 ```
 
-- Caveat: Only two tests are included at the moment. Check wiki for reflections.
+- **Caveat**: Only two tests are included at the moment. Check my wiki for reflections.
   
 [![jest-jest](https://github.com/qingqingqingli/random-post/blob/master/images/jest-test.png)](https://github.com/qingqingqingli/random-post)
 
 ## Used 3rd party libraries
 
-## To do list
+| Library | Description | Justification |
+| --------| ----------- | ------------- | 
+| [**React Navigation**](https://reactnavigation.org/) | Build routing and navigation for React Native apps | It is scalable and easy to add more screens to the app |
+| [**eslint**](https://eslint.org/) | Find and fix problems in JavaScript code | Helps to find coding errors |
+| [**jest**](https://jestjs.io/) | The recommended JavaScript Testing Framework | Develop tests for the application |
+| [**prettier**](https://prettier.io/) | Code formatter for JavaScript | Make it easy to maintain a consistent coding style |
+| [**jest-fetch-mock**](https://github.com/jefflau/jest-fetch-mock#readme) | Allows you to easily mock your fetch calls and return the response you need to fake the HTTP requests | Mock fetch calls to test other components |
+| [**react-test-renderer**](https://reactjs.org/docs/test-renderer.html) | Provides a React renderer that can be used to render React components to pure JavaScript objects | Check content from returned component |
+
+
+## On my wishlist

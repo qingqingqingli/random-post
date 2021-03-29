@@ -53,4 +53,8 @@ npx react-native run-android
 ```
 If everything is set up correctly, you should see the app running in your Android emulator shortly. If you can't get it to work, see the [Troubleshooting](https://reactnative.dev/docs/next/troubleshooting#content) page.
 
+## Testing result
+
 ## Used 3rd party libraries
+
+## Areas to develop

@@ -7,7 +7,7 @@
 | Requirement | Description | Result |
 | ------------| ----------- | ------ | 
 | Language | React-Native | :rainbow: Implemented |
-| Framework | React-Redux | :sweat_drops: Not implemented (run out of time) :neutral_face: |
+| Framework | React-Redux | :sweat_drops: Not implemented (run out of time) |
 | Initial screen | Contains a list of posts from [PostAPI](http://jsonplaceholder.typicode.com/posts) | :rainbow: Implemented |
 | Detail screen | Show details for post author from [UserAPI](http://jsonplaceholder.typicode.com/users) | :rainbow: Implemented |
 | Develop tests | Testing the application | :sweat_drops: Implemented (Only two tests)|

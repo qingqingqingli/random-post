@@ -80,3 +80,9 @@ jest test
 ## My wishlist
 
 > If I had more than 24 hours a day :relaxed:
+
+- [ ] Develop a less coupled structure
+- [ ] To implement React-Redux
+- [ ] Write tests to cover: `UI components`, `API fetch responses`, `react navigation`, `button`
+- [ ] Add a flash screen as a welcoming page
+- [ ] Improve the UI design: `add a flash screen`, `improve design for displaying posts & author info`, `add map visualisation based on author geographical coordinates`

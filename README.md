@@ -58,7 +58,13 @@ jest test
 
 - **Caveat**: Only two tests are included at the moment. Check my wiki for reflections.
   
-[![jest-jest](https://github.com/qingqingqingli/random-post/blob/master/images/jest-test.png)](https://github.com/qingqingqingli/random-post)
+[![jest-test](https://github.com/qingqingqingli/random-post/blob/master/images/jest-test.png)](https://github.com/qingqingqingli/random-post)
+
+## Structure diagram
+
+- 
+
+[![project-structure](https://github.com/qingqingqingli/random-post/blob/master/images/project-structure.png)](https://github.com/qingqingqingli/random-post)
 
 ## Used 3rd party libraries
 
@@ -70,6 +76,5 @@ jest test
 | [**prettier**](https://prettier.io/) | Code formatter for JavaScript | Make it easy to maintain a consistent coding style |
 | [**jest-fetch-mock**](https://github.com/jefflau/jest-fetch-mock#readme) | Allows you to easily mock your fetch calls and return the response you need to fake the HTTP requests | Mock fetch calls to test other components |
 | [**react-test-renderer**](https://reactjs.org/docs/test-renderer.html) | Provides a React renderer that can be used to render React components to pure JavaScript objects | Check content from returned component |
-
 
 ## On my wishlist

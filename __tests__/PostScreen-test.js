@@ -1,19 +1,30 @@
 import * as React from "react";
-import { render, fireEvent } from "@testing-library/react-native";
+import { render, act, fireEvent } from "@testing-library/react-native";
 import App from "../App";
+import renderer from "react-test-renderer";
 
-describe('Testing react navigation', () => {
-    test('Post Screen contains the header and 100 items', async () => {
+global.fetch = jest.fn(() =>
+  Promise.resolve({
+    json: () =>
+      Promise.resolve({
+        userId: 1,
+        id: 1,
+        title:
+          "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        body: "quia et suscipito",
+      }),
+  })
+);
 
-        const component = (<App />);
-        const { findByText, findAllByText } = render(component);
+describe("Testing Post Screen", () => {
+  test("Can render correctly", async () => {
+    await act(async () => renderer.create(<App />));
+  });
 
-        const header = await findByText('Post Screen');
-        const items = await findAllByText(/Post ID:/);
+  test("Contains the correct header", async () => {
+    const { findByText } = render(<App />);
+    const header = await findByText("Post Screen");
 
-        expect(header).toBeTruthy();
-        expect(items.length).toBe(100);
-    });
-
-
+    expect(header).toBeTruthy();
+  });
 });

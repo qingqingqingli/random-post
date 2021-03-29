@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8393eb2c-8f3c-478d-a1c2-ba6a2b3289db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/__tests__/PostScreen-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__tests__/practice-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/extractApiData.js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/App-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/App-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/PostScreen-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/PostScreen-test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
@@ -18,12 +15,12 @@
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/PostScreen/PostItem.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/PostScreen/PostItem.js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/PostScreen/PostScreen.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/PostScreen/PostScreen.js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/PostScreen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/PostScreen/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/extractApiData.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/extractApiData.js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/styles.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/random-post/src/styles.js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jest/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest/setup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PostScreen/PostScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostScreen/PostScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JavaScript" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -85,7 +82,7 @@
       <recent name="$PROJECT_DIR$/node_modules" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.PostScreen">
+  <component name="RunManager" selected="Jest.Testing Post Screen">
     <configuration name="PostScreen" type="JavaScriptTestRunnerJest">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -93,6 +90,60 @@
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing Post Screen" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__tests__/PostScreen-test.js" />
+      <test-names>
+        <test-name value="Testing Post Screen" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing Post Screen.Fetched once on Post Screen" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/PostScreen-test.js" />
+      <test-names>
+        <test-name value="Testing Post Screen" />
+        <test-name value="Fetched once on Post Screen" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing Post Screen.Fetched twice" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/PostScreen-test.js" />
+      <test-names>
+        <test-name value="Testing Post Screen" />
+        <test-name value="Fetched twice" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__tests__/PostScreen-test.js" />
+      <test-names>
+        <test-name value="test" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="Android" type="ReactNative" factoryName="React Native">
@@ -109,7 +160,19 @@
     <list>
       <item itemvalue="Jest.PostScreen" />
       <item itemvalue="React Native.Android" />
+      <item itemvalue="Jest.Testing Post Screen" />
+      <item itemvalue="Jest.Testing Post Screen.Fetched twice" />
+      <item itemvalue="Jest.Testing Post Screen.Fetched once on Post Screen" />
+      <item itemvalue="Jest.test" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Testing Post Screen" />
+        <item itemvalue="Jest.test" />
+        <item itemvalue="Jest.Testing Post Screen.Fetched once on Post Screen" />
+        <item itemvalue="Jest.Testing Post Screen.Fetched twice" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -135,7 +198,7 @@
       <workItem from="1616936973190" duration="2004000" />
       <workItem from="1616939218596" duration="13557000" />
       <workItem from="1617009230167" duration="7175000" />
-      <workItem from="1617021322234" duration="3363000" />
+      <workItem from="1617021322234" duration="10130000" />
     </task>
     <servers />
   </component>

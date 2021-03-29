@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import {
   Text,
   View,
@@ -19,7 +19,6 @@ const PostScreen = ({ navigation }) => {
   if (isError === false)
     return (
       <SafeAreaView style={styles.container}>
-        <Text>TEST</Text>
         {isLoading ? (
           <View style={styles.loader}>
             <ActivityIndicator size="large" color="#0c9" />

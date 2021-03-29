@@ -28,7 +28,7 @@
 
 2. Clone the project
 ```shell
-git clone https://github.com/qingqingqingli/random-post-2.git
+git clone https://github.com/qingqingqingli/random-post.git
 ```
 3. Install dependencies
 ```shell

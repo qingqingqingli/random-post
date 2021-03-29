@@ -36,11 +36,11 @@ git clone https://github.com/qingqingqingli/random-post.git
 ```shell
 cd random-post
 
-# With Yarn
-yarn install
-
-# With npm
+# with npm
 npm install
+
+# or with yarn
+yarn install
 ```
 
 4. Run the app

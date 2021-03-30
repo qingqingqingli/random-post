@@ -60,7 +60,7 @@ jest test
 
 ## Structure diagram
 
-- One main takeaway from the diagram below is all the component are interacting with `useState` hook. The dependencies can be simplified with the implementation with `React-Redux`. I run out of time to implement it. 
+- One main takeaway from the diagram below is all the component are interacting with `useState` hook. The dependencies can be optimised by `React-Redux`. I run out of time to implement it. 
   
 - Any suggestions on how to improve the structure is more than welcomed! :yellow_heart:
 
@@ -84,5 +84,4 @@ jest test
 - [ ] Develop a less coupled structure
 - [ ] To implement React-Redux
 - [ ] Write tests to cover: `UI components`, `API fetch responses`, `react navigation`, `button`
-- [ ] Add a flash screen as a welcoming page
 - [ ] Improve the UI design: `add a flash screen`, `improve design for displaying posts & author info`, `add map visualisation based on author geographical coordinates`
